@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         anim.SetBool("IsDead", true);
-        Destroy(gameObject);
+        // animation only lasts 0.3 seconds
+        Destroy(gameObject, 0.3f);
     }
 }
