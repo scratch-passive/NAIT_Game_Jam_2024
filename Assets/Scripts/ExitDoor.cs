@@ -23,6 +23,7 @@ public class ExitDoor : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collider)
     {
         Console.WriteLine("End");
+        SceneManager.LoadScene(2);
         
         
     }
