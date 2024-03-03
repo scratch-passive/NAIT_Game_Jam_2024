@@ -247,6 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveVal: {x: 0, y: 0}
   moveSpeed: 1
+  rb: {fileID: 0}
 --- !u!114 &344080313
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,6 +19,7 @@ public class Weapon : MonoBehaviour
         
     }
 
+    // called from the player input component "send messages" whenever the player presses a the shoot key
     void OnShoot()
     {
         // shooting logic

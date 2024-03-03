@@ -6,6 +6,9 @@ public class CameraControl : MonoBehaviour
 {
     public Transform player;
     public Vector2 offset;
+
+    // make sure to disable MSAA (or any AntiAliasing?) to solve issues with sprite sheet edges
+
     // Start is called before the first frame update
     void Start()
     {
