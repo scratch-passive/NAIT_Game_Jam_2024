@@ -1,0 +1,37 @@
+.unity-progress-bar__progress {
+    background-color: rgb(200, 30, 40);
+    visibility: visible;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 6px;
+    margin-right: 15px;
+    margin-bottom: 6px;
+    margin-left: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.unity-progress-bar__background {
+    background-image: url('project://database/Assets/Health%20Bar%201.png?fileID=2800000&guid=ae0162151127a4d6f91df36298807cb6&type=3#Health Bar 1');
+    background-color: rgba(188, 63, 63, 0);
+}
+
+.unity-label {
+    -unity-font: url('project://database/Assets/PressStart2P-Regular.ttf?fileID=12800000&guid=fb923078bd27840bb95254866a849b83&type=3#PressStart2P-Regular');
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -unity-font-definition: initial;
+    font-size: 10px;
+    -unity-text-align: upper-center;
+    width: 150px;
+    height: auto;
+    position: relative;
+    top: auto;
+    justify-content: flex-start;
+}
